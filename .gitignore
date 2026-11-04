@@ -1,0 +1,38 @@
+# ===== Gradle / Kotlin =====
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/libs.versions.toml
+
+# ===== IntelliJ IDEA =====
+# .idea は中身を一旦すべて除外し、共有したいものだけ許可する
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+!.idea/scopes/
+!.idea/encodings.xml
+!.idea/vcs.xml
+!.idea/.gitignore
+
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===== PaperMC 開発用 =====
+# run-paper / テストサーバーの実行ディレクトリ
+run/
+# テストサーバーを別の場所に置く場合
+server/
+
+# ===== ローカル設定・秘密情報 =====
+local.properties
+.env
+*.log
+hs_err_pid*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db

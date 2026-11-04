@@ -1,0 +1,6 @@
+name: FirstProject
+version: '${version}'
+
+main: com.turupudica.firstProject.FirstProject
+api-version: '1.21.8'
+load: POSTWORLD
